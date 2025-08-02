@@ -27,23 +27,23 @@ if exists('g:framer_syntax_dark_bold')
 endif
 
 let g:framer_syntax_dark_bold = get(g:, 'framer_syntax_dark_bold', 0)
-hi Cursor guifg=#181818 ctermfg=234 guibg=#FB5599 ctermbg=204 gui=NONE cterm=NONE
-hi CursorLine guifg=NONE ctermfg=NONE guibg=#151515 ctermbg=233 gui=NONE cterm=NONE
+hi Cursor guifg=#111111 ctermfg=234 guibg=#FB5599 ctermbg=204 gui=NONE cterm=NONE
+hi CursorLine guifg=NONE ctermfg=NONE guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
 hi CursorLineNR guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffText guifg=#EEEEEE ctermfg=255 guibg=#FB5599 ctermbg=204 gui=NONE cterm=NONE
 hi ErrorMsg guifg=#EEEEEE ctermfg=255 guibg=#FB5599 ctermbg=204 gui=NONE cterm=NONE
 hi Folded guifg=#23CCDD ctermfg=44 guibg=#151515 ctermbg=233 gui=NONE cterm=NONE
 hi LineNr guifg=#333333 ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=NONE ctermfg=NONE guibg=#2E343A ctermbg=236 gui=NONE cterm=NONE
-hi SignColumn guifg=#333333 ctermfg=236 guibg=#181818 ctermbg=234 gui=NONE cterm=NONE
-hi VertSplit guifg=#333333 ctermfg=236 guibg=#181818 ctermbg=234 gui=NONE cterm=NONE
+hi SignColumn guifg=#333333 ctermfg=236 guibg=#111111 ctermbg=234 gui=NONE cterm=NONE
+hi VertSplit guifg=#333333 ctermfg=236 guibg=#111111 ctermbg=234 gui=NONE cterm=NONE
 hi NonText guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialKey guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi EndOfBuffer guifg=#181818 ctermfg=234 guibg=#181818 ctermbg=234 gui=NONE cterm=NONE
-hi Normal guifg=#EEEEEE ctermfg=255 guibg=#181818 ctermbg=234 gui=NONE cterm=NONE
+hi EndOfBuffer guifg=#111111 ctermfg=234 guibg=#111111 ctermbg=234 gui=NONE cterm=NONE
+hi Normal guifg=#EEEEEE ctermfg=255 guibg=#111111 ctermbg=234 gui=NONE cterm=NONE
 hi Search guifg=NONE ctermfg=NONE guibg=#2E343A ctermbg=236 gui=NONE cterm=NONE
-hi StatusLine guifg=#656565 ctermfg=242 guibg=#181818 ctermbg=234 gui=NONE cterm=NONE
-hi StatusLineNC guifg=#333333 ctermfg=236 guibg=#181818 ctermbg=234 gui=NONE cterm=NONE
+hi StatusLine guifg=#656565 ctermfg=242 guibg=#111111 ctermbg=234 gui=NONE cterm=NONE
+hi StatusLineNC guifg=#333333 ctermfg=236 guibg=#111111 ctermbg=234 gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#3a3d41 ctermbg=237 gui=NONE cterm=NONE
 hi Boolean guifg=#FF8867 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Comment guifg=#656565 ctermfg=242 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
@@ -308,8 +308,8 @@ hi NERDTreeExecFile guifg=#FF8867 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE c
 hi NERDTreeLinkFile guifg=#00BBFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeLinkTarget guifg=#EEAAFF ctermfg=219 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi dockerfileKeyword guifg=#00BBFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi ALEErrorSign guifg=#FB5599 ctermfg=204 guibg=#181818 ctermbg=234 gui=NONE cterm=NONE
-hi ALEWarningSign guifg=#FFCC66 ctermfg=221 guibg=#181818 ctermbg=234 gui=NONE cterm=NONE
+hi ALEErrorSign guifg=#FB5599 ctermfg=204 guibg=#111111 ctermbg=234 gui=NONE cterm=NONE
+hi ALEWarningSign guifg=#FFCC66 ctermfg=221 guibg=#111111 ctermbg=234 gui=NONE cterm=NONE
 hi perlFiledescRead guifg=#EEAAFF ctermfg=219 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi perlFunction guifg=#00BBFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi perlFunctionName guifg=#FFCC66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
